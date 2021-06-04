@@ -1,6 +1,6 @@
 FROM alpine/git as clone
 WORKDIR /app
-RUN git clone https://oauth2:jjddeNr6FtkgZY4eQ62w@git.ecdf.ed.ac.uk/sd202021groups/group_5.git:project .
+RUN git clone https://oauth2:<TOKEN>@<GIT_URL>:project .
 cd project
 git checkout develop
 
